@@ -1,0 +1,72 @@
+17 Jun 2021 15:48:35,646 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 15:49:45,488 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 16:00:54,993 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 16:04:43,920 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 16:21:49,326 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 16:22:11,901 TRACE project.persistence.database.ProbaDBRepository 58 findAll - Enter
+17 Jun 2021 16:22:11,902 TRACE project.persistence.database.JdbcUtils 50 getConnection - Enter
+17 Jun 2021 16:22:11,903 TRACE project.persistence.database.JdbcUtils 25 getNewConnection - Enter
+17 Jun 2021 16:22:11,904 INFO  project.persistence.database.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db
+17 Jun 2021 16:22:11,905 INFO  project.persistence.database.JdbcUtils 33 getNewConnection - user: null
+17 Jun 2021 16:22:11,906 INFO  project.persistence.database.JdbcUtils 34 getNewConnection - pass: null
+17 Jun 2021 16:22:12,065 TRACE project.persistence.database.JdbcUtils 59 getConnection - Exit with(org.sqlite.SQLiteConnection@2c110c53)
+17 Jun 2021 16:22:12,072 TRACE project.persistence.database.ProbaDBRepository 79 findAll - Exit with([Proba: LONG + FLUTURE, Proba: MARATHON + MIXT, Proba: SHORT + SPATE, Proba: SHORT + FLUTURE, Proba: LONG + MIXT, Proba: SHORT + MIXT, Proba: LONG + LIBER, Proba: LONG + FLUTURE, Proba: MEDIUM + MIXT, Proba: MEDIUM + LIBER, Proba: MEDIUM + FLUTURE, Proba: MEDIUM + SPATE, Proba: MARATHON + FLUTURE, Proba: MARATHON + SPATE, Proba: MARATHON + LIBER])
+17 Jun 2021 16:29:00,571 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 16:30:22,299 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 16:34:32,322 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 16:35:03,171 TRACE project.persistence.database.ProbaDBRepository 58 findAll - Enter
+17 Jun 2021 16:35:03,172 TRACE project.persistence.database.JdbcUtils 50 getConnection - Enter
+17 Jun 2021 16:35:03,173 TRACE project.persistence.database.JdbcUtils 25 getNewConnection - Enter
+17 Jun 2021 16:35:03,174 INFO  project.persistence.database.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db
+17 Jun 2021 16:35:03,175 INFO  project.persistence.database.JdbcUtils 33 getNewConnection - user: null
+17 Jun 2021 16:35:03,176 INFO  project.persistence.database.JdbcUtils 34 getNewConnection - pass: null
+17 Jun 2021 16:35:03,330 TRACE project.persistence.database.JdbcUtils 59 getConnection - Exit with(org.sqlite.SQLiteConnection@62619adb)
+17 Jun 2021 16:35:03,340 TRACE project.persistence.database.ProbaDBRepository 79 findAll - Exit with([Proba: LONG + FLUTURE, Proba: MARATHON + MIXT, Proba: SHORT + SPATE, Proba: SHORT + FLUTURE, Proba: LONG + MIXT, Proba: SHORT + MIXT, Proba: LONG + LIBER, Proba: LONG + FLUTURE, Proba: MEDIUM + MIXT, Proba: MEDIUM + LIBER, Proba: MEDIUM + FLUTURE, Proba: MEDIUM + SPATE, Proba: MARATHON + FLUTURE, Proba: MARATHON + SPATE, Proba: MARATHON + LIBER])
+17 Jun 2021 17:44:06,115 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 17:45:32,975 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 17:47:41,897 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+17 Jun 2021 17:49:00,820 TRACE project.persistence.database.ProbaDBRepository 58 findAll - Enter
+17 Jun 2021 17:49:00,822 TRACE project.persistence.database.JdbcUtils 50 getConnection - Enter
+17 Jun 2021 17:49:00,823 TRACE project.persistence.database.JdbcUtils 25 getNewConnection - Enter
+17 Jun 2021 17:49:00,823 INFO  project.persistence.database.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db
+17 Jun 2021 17:49:00,823 INFO  project.persistence.database.JdbcUtils 33 getNewConnection - user: null
+17 Jun 2021 17:49:00,824 INFO  project.persistence.database.JdbcUtils 34 getNewConnection - pass: null
+17 Jun 2021 17:49:01,020 TRACE project.persistence.database.JdbcUtils 59 getConnection - Exit with(org.sqlite.SQLiteConnection@72bdb127)
+17 Jun 2021 17:49:01,030 TRACE project.persistence.database.ProbaDBRepository 79 findAll - Exit with([Proba: LONG + FLUTURE, Proba: MARATHON + MIXT, Proba: SHORT + SPATE, Proba: SHORT + FLUTURE, Proba: LONG + MIXT, Proba: SHORT + MIXT, Proba: LONG + LIBER, Proba: LONG + FLUTURE, Proba: MEDIUM + MIXT, Proba: MEDIUM + LIBER, Proba: MEDIUM + FLUTURE, Proba: MEDIUM + SPATE, Proba: MARATHON + FLUTURE, Proba: MARATHON + SPATE, Proba: MARATHON + LIBER])
+18 Jun 2021 10:53:44,332 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+18 Jun 2021 10:54:28,900 TRACE project.persistence.database.ProbaDBRepository 58 findAll - Enter
+18 Jun 2021 10:54:28,906 TRACE project.persistence.database.JdbcUtils 50 getConnection - Enter
+18 Jun 2021 10:54:28,908 TRACE project.persistence.database.JdbcUtils 25 getNewConnection - Enter
+18 Jun 2021 10:54:28,908 INFO  project.persistence.database.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db
+18 Jun 2021 10:54:28,909 INFO  project.persistence.database.JdbcUtils 33 getNewConnection - user: null
+18 Jun 2021 10:54:28,910 INFO  project.persistence.database.JdbcUtils 34 getNewConnection - pass: null
+18 Jun 2021 10:54:29,315 TRACE project.persistence.database.JdbcUtils 59 getConnection - Exit with(org.sqlite.SQLiteConnection@4b921fe)
+18 Jun 2021 10:54:29,332 TRACE project.persistence.database.ProbaDBRepository 79 findAll - Exit with([Proba: LONG + FLUTURE, Proba: MARATHON + MIXT, Proba: SHORT + SPATE, Proba: SHORT + FLUTURE, Proba: LONG + MIXT, Proba: SHORT + MIXT, Proba: LONG + LIBER, Proba: LONG + FLUTURE, Proba: MEDIUM + MIXT, Proba: MEDIUM + LIBER, Proba: MEDIUM + FLUTURE, Proba: MEDIUM + SPATE, Proba: MARATHON + FLUTURE, Proba: MARATHON + SPATE, Proba: MARATHON + LIBER])
+18 Jun 2021 10:56:07,971 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+18 Jun 2021 10:56:46,771 TRACE project.persistence.database.ProbaDBRepository 155 findAllByStil - Enter
+18 Jun 2021 10:56:46,774 TRACE project.persistence.database.JdbcUtils 50 getConnection - Enter
+18 Jun 2021 10:56:46,774 TRACE project.persistence.database.JdbcUtils 25 getNewConnection - Enter
+18 Jun 2021 10:56:46,775 INFO  project.persistence.database.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db
+18 Jun 2021 10:56:46,775 INFO  project.persistence.database.JdbcUtils 33 getNewConnection - user: null
+18 Jun 2021 10:56:46,776 INFO  project.persistence.database.JdbcUtils 34 getNewConnection - pass: null
+18 Jun 2021 10:56:47,002 TRACE project.persistence.database.JdbcUtils 59 getConnection - Exit with(org.sqlite.SQLiteConnection@629ad874)
+18 Jun 2021 10:56:47,009 TRACE project.persistence.database.ProbaDBRepository 177 findAllByStil - Exit with([Proba: LONG + FLUTURE, Proba: SHORT + FLUTURE, Proba: LONG + FLUTURE, Proba: MEDIUM + FLUTURE, Proba: MARATHON + FLUTURE])
+18 Jun 2021 17:57:52,988 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+18 Jun 2021 17:58:53,928 TRACE project.persistence.database.ProbaDBRepository 58 findAll - Enter
+18 Jun 2021 17:58:53,929 TRACE project.persistence.database.JdbcUtils 50 getConnection - Enter
+18 Jun 2021 17:58:53,929 TRACE project.persistence.database.JdbcUtils 25 getNewConnection - Enter
+18 Jun 2021 17:58:53,930 INFO  project.persistence.database.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db
+18 Jun 2021 17:58:53,931 INFO  project.persistence.database.JdbcUtils 33 getNewConnection - user: null
+18 Jun 2021 17:58:53,931 INFO  project.persistence.database.JdbcUtils 34 getNewConnection - pass: null
+18 Jun 2021 17:58:53,942 TRACE project.persistence.database.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25092fd2)
+18 Jun 2021 17:58:53,947 TRACE project.persistence.database.ProbaDBRepository 79 findAll - Exit with([Proba: LONG + FLUTURE, Proba: MARATHON + MIXT, Proba: SHORT + SPATE, Proba: SHORT + FLUTURE, Proba: LONG + MIXT, Proba: SHORT + MIXT, Proba: LONG + LIBER, Proba: LONG + FLUTURE, Proba: MEDIUM + MIXT, Proba: MEDIUM + LIBER, Proba: MEDIUM + FLUTURE, Proba: MEDIUM + SPATE, Proba: MARATHON + FLUTURE, Proba: MARATHON + SPATE, Proba: MARATHON + LIBER])
+20 Jun 2021 13:25:49,282 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 
+20 Jun 2021 13:25:58,347 TRACE project.persistence.database.ProbaDBRepository 58 findAll - Enter
+20 Jun 2021 13:25:58,350 TRACE project.persistence.database.JdbcUtils 50 getConnection - Enter
+20 Jun 2021 13:25:58,351 TRACE project.persistence.database.JdbcUtils 25 getNewConnection - Enter
+20 Jun 2021 13:25:58,352 INFO  project.persistence.database.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db
+20 Jun 2021 13:25:58,353 INFO  project.persistence.database.JdbcUtils 33 getNewConnection - user: null
+20 Jun 2021 13:25:58,354 INFO  project.persistence.database.JdbcUtils 34 getNewConnection - pass: null
+20 Jun 2021 13:25:58,369 TRACE project.persistence.database.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3a3bfa4c)
+20 Jun 2021 13:25:58,376 TRACE project.persistence.database.ProbaDBRepository 79 findAll - Exit with([Proba: LONG + FLUTURE, Proba: MARATHON + MIXT, Proba: SHORT + SPATE, Proba: SHORT + FLUTURE, Proba: LONG + MIXT, Proba: SHORT + MIXT, Proba: LONG + LIBER, Proba: LONG + FLUTURE, Proba: MEDIUM + MIXT, Proba: MEDIUM + LIBER, Proba: MEDIUM + FLUTURE, Proba: MEDIUM + SPATE, Proba: MARATHON + FLUTURE, Proba: MARATHON + SPATE, Proba: MARATHON + LIBER])
+25 Sep 2022 17:57:16,627 INFO  project.persistence.database.ProbaDBRepository 29 <init> - Initializing ProbaDBRepository with properties: {project.server.port=55556, project.jdbc.driver=org.sqlite.JDBC, project.jdbc.url=jdbc:sqlite:D:\Faculta\Anul2\Sem2\MPP\Structura\Proiect\proiect.db} 

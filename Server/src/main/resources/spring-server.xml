@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd ">
+
+
+    <util:properties id="jdbcProps" location="classpath:projectserver.properties"/>
+
+    <bean id="sessionFactory" class="SessionFactoryS"/>
+    <bean id="sessionBean" factory-bean="sessionFactory" factory-method="getInstance" destroy-method="close"/>
+
+    <bean id = "partRepo" class="project.persistence.database.ParticipantDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="probaRepo" class="project.persistence.database.ProbaDBRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="insRepo" class="project.persistence.InscriereORMRepository">
+        <constructor-arg ref="sessionBean"/>
+    </bean>
+
+        <bean id="projectService" class="project.server.ProjectServicesImpl">
+            <constructor-arg ref="partRepo"/>
+            <constructor-arg ref="probaRepo"/>
+            <constructor-arg ref="insRepo"/>
+        </bean>
+
+        <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+            <property name="serviceName" value="Project"/>
+            <property name="service" ref="projectService"/>
+            <property name="serviceInterface" value="project.services.IProjectServices"/>
+            <property name="servicePort" value="1099"/>
+        </bean>
+</beans>
